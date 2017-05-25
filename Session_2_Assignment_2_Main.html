@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+	<title>HTML Form </title>
+	</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Your Details:</legend>
+				<label> Name: <input type="text" name="name" size="20" maxlength="100"/></label>
+				<br />
+				<label>Email: <input type="email" name="email" size="20" maxlength="100"/></label>
+		 </fieldset>
+	</form>
+<br />
+<br />
+	<form>
+		<fieldset>
+			<legend> Your Review:</legend>
+			<br />
+				<label> How did you hear about us? </label>
+				<select name="aboutus">
+					<option value="Google">Google</option>
+					<option value="Facebook">Facebook</option>
+					<option value="Twitter">Twitter</option>
+					<option value="Other">Other</option>
+				</select>
+				<br />
+				<br />
+				<label> Would you Visit again ? </label>
+				<br />
+					<label><input type="radio" name="visiting" value="yes"/>Yes</label>
+					<label><input type="radio" name="visiting" value="no"/>No</label>
+					<label><input type="radio" name="visiting" value="maybe"/>Maybe</label>
+				<br />
+				<br />
+				Comments:
+				<br />
+				<textarea name="comments" cols="50" rows="4"></textarea>
+				<br />
+				<br />
+				<label><input type="checkbox" name="signup" /> Sign me up for email updates</label>
+				<br />
+				<input type="submit" name='submit' value="Submit Review" />
+		</fieldset>
+	</form> 
+</body>
+</html>
